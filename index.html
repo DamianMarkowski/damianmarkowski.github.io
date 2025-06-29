@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Damian Markowski</title>
+    <title>Damian Markowski - Senior iOS Developer and Technical Leader</title>
     <style>
         /* Reset and base styles */
         * {
@@ -40,6 +40,7 @@
             font-size: 2.5rem;
             font-weight: 300;
             color: #ffffff;
+            margin-top: 20px;
             margin-bottom: 10px;
             letter-spacing: -0.02em;
         }
@@ -278,14 +279,14 @@
             color: #ffffff;
         }
 
-        .projects-list {
+        .project-list {
             list-style: none;
             display: flex;
             flex-direction: column;
             gap: 15px;
         }
 
-        .projects-list li a {
+        .project-list li a {
             color: #888;
             text-decoration: none;
             font-size: 1.1rem;
@@ -294,8 +295,26 @@
             padding: 5px 0;
         }
 
-        .projects-list li a:hover {
+        .project-list li a:hover {
             color: #ffffff;
+        }
+
+        .book-recommendations-section {
+            margin-bottom: 60px;
+        }
+
+        .book-recommendations-section h2 {
+            font-size: 1.8rem;
+            font-weight: 400;
+            margin-bottom: 45px;
+            color: #ffffff;
+        }
+
+        .book-list {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
         }
 
         /* Footer */
@@ -305,6 +324,19 @@
             border-top: 1px solid #333;
             color: #666;
             font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #888;
+            text-decoration: none;
+            font-size: 1.1rem;
+            transition: color 0.3s ease;
+            display: inline-block;
+            padding: 5px 0;
+        }
+
+        footer a:hover {
+            color: #ffffff;
         }
 
         /* Responsive design */
@@ -367,11 +399,8 @@
                     <span></span>
                 </button>
                 <ul class="nav-menu">
-                    <li><a href="./index.html">Home</a></li>
                     <li><a href="https://www.linkedin.com/in/markowskidamian/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
                     <li><a href="https://x.com/dammarkowski" target="_blank" rel="noopener noreferrer">X</a></li>
-                    <li><a href="https://github.com/DamianMarkowski" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-                    <li><a href="./blog/index.html">Blog</a></li>
                 </ul>
             </nav>
             <h1 class="site-title">Hey 👋 I'm Damian Markowski</h1>
@@ -381,24 +410,19 @@
         <div class="mobile-menu" id="mobileMenu">
             <button class="close-menu" id="closeMenu">&times;</button>
             <ul class="nav-menu">
-                <li><a href="./index.html">Home</a></li>
                 <li><a href="https://www.linkedin.com/in/markowskidamian/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
                 <li><a href="https://x.com/dammarkowski" target="_blank" rel="noopener noreferrer">X</a></li>
-                <li><a href="https://github.com/DamianMarkowski" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-                <li><a href="./blog/index.html">Blog</a></li>
             </ul>
         </div>
 
         <main>
             <section class="description-section">
-                <p>💻 I'm a Senior iOS Developer and Technical Leader. You can read more about my professional experience on my <a href="https://www.linkedin.com/in/markowskidamian/" target="_blank" rel="noopener noreferrer">LinkedIn profile</a>. I like looking at the technical and product challenges from a higher level, cross-platform perspective. I do my best to help my teams with analysing the advantages and disadvantages of the potential solutions to the problems we face. I speak 🇬🇧, 🇪🇸 and 🇵🇱.</p>
-                
-                <p>📚 I like reading books related to building a company, managing people, big tech company stories and their founder autobiographies and biographies. Here's a list of such books that I've read so far and I fully recommend reading them: <a href="./blog/index.html">my book recommendations</a>.</p>
+                <p>💻 I'm a Senior iOS Developer and Technical Leader. You can read more about my professional experience on my <a href="https://www.linkedin.com/in/markowskidamian/" target="_blank" rel="noopener noreferrer">LinkedIn profile</a>. I like looking at the technical and product challenges from a high level, cross-platform perspective. I speak 🇬🇧, 🇪🇸 and 🇵🇱.</p>
             </section>
 
             <section class="projects-section">
                 <h2>Projects</h2>
-                <ul class="projects-list">
+                <ul class="project-list">
                     <li><a href="https://apps.apple.com/us/app/mymojohealth/id1591026859" target="_blank" rel="noopener noreferrer">MyMojoHealth</a></li>
                     <li><a href="https://apps.apple.com/us/app/chownow-local-food-ordering/id1210943577" target="_blank" rel="noopener noreferrer">ChowNow</a></li>
                     <li><a href="https://apps.apple.com/us/app/booking-com-hotels-travel/id367003839" target="_blank" rel="noopener noreferrer">Booking.com</a></li>
@@ -406,9 +430,47 @@
                     <li><a href="https://itunes.apple.com/pl/app/productive24/id1155453321" target="_blank" rel="noopener noreferrer">Productive24</a></li>
                 </ul>
             </section>
+            <section class="book-recommendations-section">
+                <h2>Book recommendations</h2>
+                <ul class="book-list">
+                    <li>"How to Turn Down a Billion Dollars: The Snapchat Story" by Billy Gallagher</li>
+                    <li>"The Spotify Play" by Sven Carlsson and Jonas Leijonhufvud</li>
+                    <li>"The Four Steps to the Epiphany" by Steve Blank</li>
+                    <li>"Become an Effective Software Engineering Manager" by James Stanier</li>
+                    <li>"Tesla. Inventor of the Electrical Age" by W. Bernard Carlson</li>
+                    <li>"How to Win Friends & Influence People" by Dale Carnegie</li>
+                    <li>"Amazon Unbound" by Brad Stone</li>
+                    <li>"Crossing the Chasm, 3rd Edition" by Geoffrey A. Moore</li>
+                    <li>"Super Pumped: The Battle for Uber" by Mike Isaac</li>
+                    <li>"No Rules Rules: Netflix and the Culture of Reinvention" by Reed Hastings and Erin Meyer</li>
+                    <li>"Tim Cook: The Genius Who Took Apple to the Next Level" by Leander Kahney</li>
+                    <li>"Think Twice" by Michael J. Mauboussin</li>
+                    <li>"The Influential Mind: What the Brain Reveals About Our Power to Change Others" by Tali Sharot</li>
+                    <li>"Walt Disney: An American Original" by Bob Thomas</li>
+                    <li>"The Paradox of Choice: Why More Is Less" by Barry Schwartz</li>
+                    <li>"The Google Guys: Inside the Brilliant Minds of Google Founders Larry Page and Sergey Brin" by Richard L. Brandt</li>
+                    <li>"Netflixed: The Epic Battle for America's Eyeballs" by Gina Keating</li>
+                    <li>"The Making of a Manager" by Julie Zhuo</li>
+                    <li>"Hatching Twitter: A True Story of Money, Power, Friendship, and Betrayal" by Nick Bilton</li>
+                    <li>"No Filter: The Inside Story of Instagram" by Sarah Frier</li>
+                    <li>"Start With Why" by Sinek Simon</li>
+                    <li>"The Airbnb Story" by Leigh Gallagher</li>
+                    <li>"The Manager's Path: A Guide for Tech Leaders Navigating Growth and Change" by Camille Fournier</li>
+                    <li>"The Facebook Effect" by David Kirkpatrick</li>
+                    <li>"Steve Jobs" by Walter Isaacson</li>
+                    <li>"Make It, Don't Fake It" by Sabrina Horn</li>
+                    <li>"7 Powers: The Foundations of Business Strategy" by Hamilton Helmer</li>
+                    <li>"The Founders" by Jimmy Soni</li>
+                    <li>"Elon Musk" by Walter Isaacson</li>
+                    <li>"That Will Never Work: The Birth of Netflix and the Amazing Life of an Idea" by Marc Randolph</li>
+                    <li>"The Attention Economy and How Media Works" by Karen Nelson-Field</li>
+                    <li>"The Everything Store" by Brad Stone</li>
+                </ul>
+            </section>
         </main>
 
         <footer>
+            <p><a href="mailto:dmarkowskicontact@gmail.com">dmarkowskicontact@gmail.com</a></p>
             <p>&copy; 2020-<span id="currentYear"></span> Damian Markowski. All rights reserved.</p>
         </footer>
     </div>
