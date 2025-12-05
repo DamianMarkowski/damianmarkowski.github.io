@@ -11,6 +11,8 @@ body {
     color: #e0e0e0;
     background-color: #1a1a1a;
     font-size: 16px;
+    min-height: 100vh;
+    display: flex;
 }
 
 /* Container */
@@ -18,6 +20,9 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 /* Header */
@@ -159,6 +164,7 @@ nav {
 /* Main content */
 main {
     margin-bottom: 80px;
+    flex: 1;
 }
 
 /* Article styles */
@@ -239,7 +245,6 @@ article:last-child {
 .description-section {
     margin-bottom: 60px;
     padding-bottom: 40px;
-    border-bottom: 1px solid #333;
 }
 
 .description-section p {
