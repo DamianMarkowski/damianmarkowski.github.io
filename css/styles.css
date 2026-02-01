@@ -164,11 +164,11 @@ article:last-child {
 }
 
 .description-section .x-checkmark {
-    width: 0.9em;
-    height: 0.9em;
+    display: inline-block;
     margin-left: 0.1em;
-    vertical-align: -0.1em;
-    fill: #1DA1F2;
+    vertical-align: -0.05em;
+    color: #1DA1F2;
+    font-size: 0.9em;
 }
 
 /* Projects section */
