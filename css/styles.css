@@ -163,6 +163,14 @@ article:last-child {
     color: #ffffff;
 }
 
+.description-section .x-checkmark {
+    width: 0.9em;
+    height: 0.9em;
+    margin-left: 0.1em;
+    vertical-align: -0.1em;
+    fill: #1DA1F2;
+}
+
 /* Projects section */
 .projects-section {
     margin-bottom: 60px;
