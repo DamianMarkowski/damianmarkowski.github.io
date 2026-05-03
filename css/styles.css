@@ -46,13 +46,35 @@ header {
     margin-bottom: 60px;
 }
 
-.site-title {
-    font-size: 2.5rem;
-    font-weight: 300;
+.profile-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.profile-avatar {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #333;
+}
+
+.profile-name {
+    font-size: 1.5rem;
+    font-weight: 700;
     color: #ffffff;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    letter-spacing: -0.02em;
+    letter-spacing: -0.01em;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.profile-verified {
+    color: #1D9BF0;
+    font-size: 1.25rem;
+    flex-shrink: 0;
 }
 
 .site-description {
@@ -246,8 +268,13 @@ footer a:hover {
         margin-bottom: 40px;
     }
 
-    .site-title {
-        font-size: 2rem;
+    .profile-avatar {
+        width: 120px;
+        height: 120px;
+    }
+
+    .profile-name {
+        font-size: 1.25rem;
     }
 
     .entry-title {
