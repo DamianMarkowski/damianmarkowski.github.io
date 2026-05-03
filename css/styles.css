@@ -40,10 +40,10 @@ body {
 
 /* Header */
 header {
-    padding: 60px 0 40px;
+    padding: 40px 0 30px;
     text-align: center;
     border-bottom: 1px solid #333;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 
 .profile-header {
@@ -163,11 +163,6 @@ article:last-child {
 }
 
 /* Description section */
-.description-section {
-    margin-bottom: 60px;
-    padding-bottom: 40px;
-}
-
 .description-section p {
     font-size: 1.1rem;
     line-height: 1.7;
