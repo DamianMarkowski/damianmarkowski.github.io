@@ -12,35 +12,91 @@
     </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Damian Markowski - Senior iOS Developer and Technical Leader</title>
+    <meta name="description" content="Damian Markowski — Senior iOS Developer and Technical Leader. Building digital products and sharing insights on software engineering.">
+    <meta name="theme-color" content="#0a0a0b">
+    <meta property="og:title" content="Damian Markowski — Senior iOS Developer">
+    <meta property="og:description" content="Senior iOS Developer and Technical Leader. Building digital products and sharing insights on software engineering.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://damianmarkowski.com">
+    <meta property="og:image" content="https://damianmarkowski.com/images/profile-picture.jpg">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@dammarkowski">
+    <title>Damian Markowski — Senior iOS Developer &amp; Technical Leader</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <div class="profile-header">
-                <img src="images/profile-picture.jpg" alt="Damian Markowski" class="profile-avatar">
-                <h1 class="profile-name">Damian Markowski <i class="fa-solid fa-circle-check profile-verified"></i></h1>
-            </div>
-        </header>
+    <div class="page">
+        <main class="card">
+            <header class="profile">
+                <div class="avatar-wrap">
+                    <img
+                        src="images/profile-picture.jpg"
+                        alt="Portrait of Damian Markowski"
+                        class="avatar"
+                        width="128"
+                        height="128"
+                    >
+                </div>
+                <div class="profile-text">
+                    <h1 class="name">
+                        Damian Markowski
+                        <i class="fa-solid fa-circle-check verified" title="Verified" aria-label="Verified"></i>
+                    </h1>
+                    <p class="title">Results-driven Senior iOS Developer &amp; Technical Leader</p>
+                </div>
+            </header>
 
-        <main>
-            <section class="description-section">
-                <p>💻 I'm a results-driven Senior iOS Developer and Technical Leader. You may read more about my professional experience on <a href="https://www.linkedin.com/in/markowskidamian/" target="_blank">LinkedIn</a>.</p>
-                <p>📱 I post about building digital products and services and IT in general on <a href="https://x.com/dammarkowski" target="_blank">X</a>.</p>
-                <p>♛ I like playing chess. Let's play on <a href="https://www.chess.com/member/damianmarkowski" target="_blank">Chess.com</a>.</p>
-            </section>
+            <nav class="links" aria-label="Links">
+                <a class="link-card" href="https://www.linkedin.com/in/markowskidamian/" target="_blank" rel="noopener noreferrer">
+                    <span class="link-icon" aria-hidden="true">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </span>
+                    <span class="link-body">
+                        <span class="link-label">LinkedIn</span>
+                        <span class="link-desc">Professional experience &amp; background</span>
+                    </span>
+                    <i class="fa-solid fa-arrow-up-right-from-square link-external" aria-hidden="true"></i>
+                </a>
+
+                <a class="link-card" href="https://x.com/dammarkowski" target="_blank" rel="noopener noreferrer">
+                    <span class="link-icon" aria-hidden="true">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </span>
+                    <span class="link-body">
+                        <span class="link-label">X</span>
+                        <span class="link-desc">Building products, services &amp; IT</span>
+                    </span>
+                    <i class="fa-solid fa-arrow-up-right-from-square link-external" aria-hidden="true"></i>
+                </a>
+
+                <a class="link-card" href="https://www.chess.com/member/damianmarkowski" target="_blank" rel="noopener noreferrer">
+                    <span class="link-icon" aria-hidden="true">
+                        <i class="fa-solid fa-chess"></i>
+                    </span>
+                    <span class="link-body">
+                        <span class="link-label">Chess.com</span>
+                        <span class="link-desc">Let's play a game</span>
+                    </span>
+                    <i class="fa-solid fa-arrow-up-right-from-square link-external" aria-hidden="true"></i>
+                </a>
+            </nav>
+
+            <a class="email-cta" href="mailto:contact@damianmarkowski.com">
+                <i class="fa-regular fa-envelope" aria-hidden="true"></i>
+                contact@damianmarkowski.com
+            </a>
         </main>
 
-        <footer>
-            <p><a href="mailto:contact@damianmarkowski.com">contact@damianmarkowski.com</a></p>
-            <p>&copy; 2013-<span id="currentYear"></span> Damian Markowski. All rights reserved.</p>
+        <footer class="footer">
+            <p>&copy; 2013–<span id="currentYear"></span> Damian Markowski</p>
         </footer>
     </div>
 
     <script>
-        // Set current year in footer
         document.getElementById('currentYear').textContent = new Date().getFullYear();
     </script>
 </body>
