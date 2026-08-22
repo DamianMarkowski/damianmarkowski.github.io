@@ -1,6 +1,6 @@
 # Damian Markowski
 
-Results-driven Technical Leader. Senior iOS Developer.
+Results-driven Technical Leader.
 
 Personal site: [https://damianmarkowski.com](https://damianmarkowski.com)
 

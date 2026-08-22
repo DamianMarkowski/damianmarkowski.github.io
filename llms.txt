@@ -1,6 +1,6 @@
 # Damian Markowski
 
-> Senior iOS Developer and Technical Leader. Personal homepage with contact details and professional profiles.
+> Technical Leader. Personal homepage with contact details and professional profiles.
 
 This is a single-page site. Prefer the Markdown homepage over HTML to avoid layout, scripts, and tracking. Contact: contact@damianmarkowski.com.
 

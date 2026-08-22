@@ -1,13 +1,13 @@
 # Damian Markowski
 
-> Senior iOS Developer and Technical Leader. Personal homepage with contact details and professional profiles.
+> Technical Leader. Personal homepage with contact details and professional profiles.
 
 This file is the full-text companion to https://damianmarkowski.com/llms.txt.
 
 ## Identity
 
 - Name: Damian Markowski
-- Role: Results-driven Technical Leader; Senior iOS Developer
+- Role: Results-driven Technical Leader
 - Site: https://damianmarkowski.com
 - Email: contact@damianmarkowski.com
 - Photo: https://damianmarkowski.com/images/profile-picture.jpg
