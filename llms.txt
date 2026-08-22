@@ -1,0 +1,17 @@
+# Damian Markowski
+
+> Senior iOS Developer and Technical Leader. Personal homepage with contact details and professional profiles.
+
+This is a single-page site. Prefer the Markdown homepage over HTML to avoid layout, scripts, and tracking. Contact: contact@damianmarkowski.com.
+
+## Site
+
+- [Homepage (Markdown)](https://damianmarkowski.com/index.md): Identity, role, contact, and profile links
+- [Full site text](https://damianmarkowski.com/llms-full.txt): Complete agent-oriented copy in one file
+- [Homepage (HTML)](https://damianmarkowski.com/): Human-facing page
+
+## Profiles
+
+- [LinkedIn](https://www.linkedin.com/in/markowskidamian/): Professional experience and background
+- [X](https://x.com/dammarkowski): Building products, services, and IT
+- [Chess.com](https://www.chess.com/member/damianmarkowski): Chess profile

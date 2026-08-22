@@ -1,0 +1,23 @@
+# Damian Markowski
+
+> Senior iOS Developer and Technical Leader. Personal homepage with contact details and professional profiles.
+
+This file is the full-text companion to https://damianmarkowski.com/llms.txt.
+
+## Identity
+
+- Name: Damian Markowski
+- Role: Results-driven Technical Leader; Senior iOS Developer
+- Site: https://damianmarkowski.com
+- Email: contact@damianmarkowski.com
+- Photo: https://damianmarkowski.com/images/profile-picture.jpg
+
+## Profiles
+
+- LinkedIn: https://www.linkedin.com/in/markowskidamian/ — Professional experience and background
+- X: https://x.com/dammarkowski — Building products, services, and IT
+- Chess.com: https://www.chess.com/member/damianmarkowski — Chess profile
+
+## How to use this site
+
+This website is a personal calling card, not a product, documentation set, or API. There are no endpoints to call. For contact, send email to contact@damianmarkowski.com. For professional background, use the LinkedIn profile. For public posts about building products and IT, use X.
