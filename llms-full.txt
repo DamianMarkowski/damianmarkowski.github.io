@@ -10,7 +10,7 @@ This file is the full-text companion to https://damianmarkowski.com/llms.txt.
 - Role: Results-driven Technical Leader
 - Site: https://damianmarkowski.com
 - Email: contact@damianmarkowski.com
-- Photo: https://damianmarkowski.com/images/profile-picture.jpg
+- Photo: https://damianmarkowski.com/images/profile-512.jpg
 
 ## Profiles
 
